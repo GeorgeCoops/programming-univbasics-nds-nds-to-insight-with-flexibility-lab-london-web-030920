@@ -108,7 +108,9 @@ director_index = 0
 while director_index < source.length
   director_name_new = source[director_index][:name]
   director_movies = source[director_index][:movies]
-  movie_index = 0
+
+  movies_with_director_key(director_name_new, director_movies)
+
   # while movie_index < source[director_index].length
   #   director_name_new = source[director_index][:name]
   #   individual_movie_data = source[director_index][:movies][movie_index][:title]
