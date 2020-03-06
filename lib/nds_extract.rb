@@ -112,16 +112,16 @@ while director_index < source.length
     director_name_new = source[director_index][:name]
     individual_movie_data = source[director_index][:movies][movie_index][:title]
 
-binding.pry
-
     array.push({director_name_new => individual_movie})
 
     movie_index += 1
   end
   director_index += 1
 end
+binding.pry
 
 array
+
 end
 
 
