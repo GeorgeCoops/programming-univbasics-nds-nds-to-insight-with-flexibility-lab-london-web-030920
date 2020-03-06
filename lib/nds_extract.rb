@@ -114,7 +114,7 @@ while director_index < source.length
 
 binding.pry
 
-    array.push({director_name_new => individual_movie_data})
+    array.push({director_name_new => individual_movie})
 
     movie_index += 1
   end
