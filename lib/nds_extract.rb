@@ -113,6 +113,8 @@ while director_index < source.length
     individual_movie_data = source[director_index][:movies][movie_index][:title]
 
     array.push({director_name_new: individual_movie_data})
+
+    movie_index += 1
   end
   director_index += 1
 end
