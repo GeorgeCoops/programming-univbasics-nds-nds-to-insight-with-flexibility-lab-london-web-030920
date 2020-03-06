@@ -109,7 +109,7 @@ while director_index < source.length
   director_name_new = source[director_index][:name]
   director_movies = source[director_index][:movies]
 
-  movies_with_director_key(director_name_new, director_movies)
+  array.push(movies_with_director_key(director_name_new, director_movies))
 
   # while movie_index < source[director_index].length
   #   director_name_new = source[director_index][:name]
