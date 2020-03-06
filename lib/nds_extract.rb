@@ -119,7 +119,7 @@ while director_index < source.length
   director_index += 1
 end
 
-binding.pry
+
 
 array
 
