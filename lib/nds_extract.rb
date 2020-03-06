@@ -113,7 +113,7 @@ while director_index < source.length
     individual_movie_data = source[director_index][:movies][movie_index][:title]
     hash = {}
     hash[director_name_new] = individual_movie_data
-binding.pry
+
     array.push(hash)
 
     movie_index += 1
