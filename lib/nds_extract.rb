@@ -112,7 +112,7 @@ while director_index < source.length
     director_name_new = source[director_index][:name]
     individual_movie_data = source[director_index][:movies][movie_index][:title]
 
-    array.push({director_name_new: individual_movie_data})
+    array.push({director_name_new => individual_movie_data})
 
     movie_index += 1
   end
