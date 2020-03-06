@@ -101,7 +101,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  # movies_with_director_array = [{director_name: Bryon Poodle: movies: ["At the park"], ["On the couch"]}, ]
+  # movies_with_director_array = [ movies: ["At the park"], ["On the couch"]}, ]
 array = []
 director_index = 0
 
